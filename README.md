@@ -3,7 +3,7 @@ FluxColor (QML Plugin)
 
 About
 -----
-__FluxColor__ is a light-weight HSV color chooser for Qt >=5.6.
+FluxColor is a light-weight HSV color chooser for Qt >=5.6.
 The implementation is purely based on QtQuickControls 2.
 
 Screenshot
@@ -14,10 +14,10 @@ Screenshot
 How to use
 ----------
 
-Copy the __FluxColor__ plugin directory to your project resources or add its parent path to your QML import path.
+Copy the FluxColor plugin directory to your project resources or add its parent path to your QML import path.
 See https://doc.qt.io/qt-5/qqmlengine.html#addImportPath for details on import path handling in C++ projects.
 
-The __FluxColor__ plugin provides a single `ColorChooser` type (see example below). It works best with a dark style, e.g. Universal Dark. You can select the style by pointing the environemnt variable `QT_QUICK_CONTROLS_CONF` to the `qtquickcontrols2.conf` shipped with this plugin:
+The FluxColor plugin provides a single `ColorChooser` type (see example below). It works best with a dark style, e.g. Universal Dark. You can select the style by pointing the environemnt variable `QT_QUICK_CONTROLS_CONF` to the `qtquickcontrols2.conf` shipped with this plugin:
 ```
 QT_QUICK_CONTROLS_CONF=qtquickcontrols2.conf
 ```
